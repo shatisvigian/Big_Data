@@ -13,13 +13,12 @@
         function initViz() {
             Let tableauPlaceholder = document.getElementID("tableauViz");
             Let url = "https://public.tableau.com/javascripts/api/viz_v1.js"
-
-            Let options = {
-                width: "1200px"
-                height: "900px"
-                hideTabs: true, 
-                hideToolbar: true, 
-                onFirstInteraction: function() { 
+             Let options = {
+                 width: "1200px"
+                 height: "900px"
+                 hideTabs: true, 
+                 hideToolbar: true, 
+                 onFirstInteraction: function() { 
                     console.log("We are embedding")
 
 
